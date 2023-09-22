@@ -1,0 +1,93 @@
+.recovery, .reset{
+    /* height: calc(100vh - 50px); */
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.recovery img{
+    width: 50%;
+    margin: 0 5vw;
+}
+
+.reset img{
+    width: 38%;
+    margin: 0 10vw;
+}
+
+.recoveryContainer, .resetContainer{
+    background-color: rgb(235, 234, 234);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.recoveryContainer .recoveryDesc{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.recoveryTitle, .resetTitle{
+    font-size: 50px;
+}
+
+.recoveryForm, .resetForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recoveryForm > label, .resetForm > label{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.recoveryForm > label span, .resetForm > label span{
+    color: red;
+}
+
+.recoveryForm > input, .resetForm > input{
+    padding: 20px;
+    background-color: white;
+    border: none;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.resetButton{
+    margin: 20px 0 10px 0;
+}
+
+.recoveryButton, .resetButton{
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 12px;
+}
+.recoveryButton:hover, .resetButton:hover{
+    background-color: rgb(219, 88, 88);
+}
+
+.recoveryResend{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resendButton{
+    border: none;
+    background-color: inherit;
+    color: red;
+    font-size: 1.02rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
